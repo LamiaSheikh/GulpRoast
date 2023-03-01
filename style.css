@@ -74,9 +74,11 @@ a {
 }
 
 .content {
-  display: grid;
-  gap: 20px;
-  margin: 50px;
+  display: flex;
+  justify-content:space-between;
+  gap: 40px;
+  max-width:1000px;
+  margin: 0px auto;
 }
 .about {
   grid-column: 1;
@@ -110,7 +112,8 @@ a {
 }
 
 .cardimg {
-  display: ;
+  width:100%;
+  border-radius:25px 25px 0 0;
 }
 @media screen and (max-width: 1000px) {
   .mobileimg {
